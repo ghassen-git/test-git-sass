@@ -27,6 +27,9 @@ html {
   letter-spacing: 0.2rem;
   text-align: left;
 }
+section {
+  padding: 6.4rem 0;
+}
 
 p {
   font-family: inter;
@@ -63,6 +66,7 @@ h2 {
   border: 0.1rem solid $border;
   background-color: $bg;
   color: $col;
+  padding: 1.6rem 3.2rem;
   border-radius: $red;
 }
 .logo {
@@ -72,7 +76,7 @@ h2 {
   gap: 1rem;
 }
 nav {
-  padding-top: 3.2rem;
+  padding: 4.8rem 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -85,6 +89,7 @@ nav {
     }
 
     li {
+      font-size: 1.4rem;
       a:hover,
       a:active {
         color: $primary;
@@ -93,9 +98,59 @@ nav {
   }
   button {
     @include btn($gray, $perple, white);
-    padding: 1.6rem 3.2rem;
   }
   .login {
     @include btn(white, white);
+  }
+}
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8rem;
+  .hero-img-box {
+    width: 90%;
+    img {
+      width: 100%;
+    }
+  }
+  .hero-section-text {
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 4.3rem;
+    flex-direction: column;
+    .pink-btn {
+      @include btn(white, white, $pink);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1.8rem;
+    }
+    .hero-header {
+      color: $primary;
+      font-size: 6.9rem;
+      font-weight: 700;
+      line-height: 8.28rem;
+      text-align: left;
+      span {
+        color: $pink;
+      }
+    }
+    button {
+      @include btn($gray, $perple, white);
+    }
+    .Watch {
+      @include btn(white, white);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1.6rem;
+    }
+    .hero-btns {
+      display: flex;
+      align-items: center;
+    }
   }
 }
