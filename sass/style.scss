@@ -1,0 +1,101 @@
+$primary: #191825;
+$secondary: #ff5722;
+$pink: #f85e9f;
+$perple: #5d50c6;
+$gray: #19182580;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0 12.8rem;
+  color: $gray;
+  position: relative;
+  font-size: 1.8rem;
+  font-family: Circular Std;
+}
+html {
+  font-size: 62.5%;
+}
+.pink-text {
+  color: $pink;
+
+  font-size: 2.3rem;
+  font-weight: 700;
+  line-height: 2.76rem;
+  letter-spacing: 0.2rem;
+  text-align: left;
+}
+
+p {
+  font-family: inter;
+}
+a {
+  color: $gray;
+  text-decoration: none;
+}
+button,
+a {
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.logo-text {
+  font-size: 2.4rem;
+  font-weight: 900;
+  line-height: 4rem;
+  text-align: left;
+  color: $primary;
+}
+h2,
+h1,
+h3 {
+  color: $primary;
+}
+h2 {
+  font-size: 4.4rem;
+  font-weight: 700;
+  line-height: 5.28rem;
+  text-align: left;
+}
+
+@mixin btn($border: white, $bg: white, $col: $primary, $red: 10rem) {
+  border: 0.1rem solid $border;
+  background-color: $bg;
+  color: $col;
+  border-radius: $red;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+nav {
+  padding-top: 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  ul {
+    display: flex;
+    gap: 6.4rem;
+    list-style: none;
+    .first-child {
+      color: $primary;
+    }
+
+    li {
+      a:hover,
+      a:active {
+        color: $primary;
+      }
+    }
+  }
+  button {
+    @include btn($gray, $perple, white);
+    padding: 1.6rem 3.2rem;
+  }
+  .login {
+    @include btn(white, white);
+  }
+}

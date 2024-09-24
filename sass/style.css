@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 12.8rem;
+  color: rgba(25, 24, 37, 0.5019607843);
+  position: relative;
+  font-size: 1.8rem;
+  font-family: Circular Std;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.pink-text {
+  color: #f85e9f;
+  font-size: 2.3rem;
+  font-weight: 700;
+  line-height: 2.76rem;
+  letter-spacing: 0.2rem;
+  text-align: left;
+}
+
+p {
+  font-family: inter;
+}
+
+a {
+  color: rgba(25, 24, 37, 0.5019607843);
+  text-decoration: none;
+}
+
+button,
+a {
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.logo-text {
+  font-size: 2.4rem;
+  font-weight: 900;
+  line-height: 4rem;
+  text-align: left;
+  color: #191825;
+}
+
+h2,
+h1,
+h3 {
+  color: #191825;
+}
+
+h2 {
+  font-size: 4.4rem;
+  font-weight: 700;
+  line-height: 5.28rem;
+  text-align: left;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+nav {
+  padding-top: 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  gap: 6.4rem;
+  list-style: none;
+}
+nav ul .first-child {
+  color: #191825;
+}
+nav ul li a:hover,
+nav ul li a:active {
+  color: #191825;
+}
+nav button {
+  border: 0.1rem solid rgba(25, 24, 37, 0.5019607843);
+  background-color: #5d50c6;
+  color: white;
+  border-radius: 10rem;
+  padding: 1.6rem 3.2rem;
+}
+nav .login {
+  border: 0.1rem solid white;
+  background-color: white;
+  color: #191825;
+  border-radius: 10rem;
+}/*# sourceMappingURL=style.css.map */
