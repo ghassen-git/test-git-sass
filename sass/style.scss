@@ -440,3 +440,57 @@ nav {
     gap: 2.4rem;
   }
 }
+.mailing-section {
+  margin: 6.4rem 0;
+  padding: 12.8rem 6.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3.2rem;
+  flex-direction: column;
+  background-color: #face492c;
+  position: relative;
+  .header {
+    margin-bottom: 6.4rem;
+    .pink-text {
+      text-align: center;
+    }
+    h2 {
+      font-size: 5.5rem;
+      text-align: center;
+      line-height: 6.6rem;
+    }
+  }
+  button {
+    @include btn($gray, $perple, white);
+    padding: 3.2rem 6.4rem 3.2rem 6.4rem;
+    font-size: 1.8rem;
+  }
+  .inputs {
+    z-index: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 6.4rem;
+    input {
+      background-image: url("asset/message 1.png");
+      background-repeat: no-repeat;
+      padding: 3.2rem;
+      background-position: 1rem 1rem;
+      border-radius: 3.2rem;
+      border: none;
+      width: 75.7rem;
+      height: 100%;
+      font-size: 1.8rem;
+    }
+    input::placeholder {
+      color: $primary;
+    }
+  }
+  img {
+    position: absolute;
+    top: -6rem;
+    left: -3rem;
+  }
+}
