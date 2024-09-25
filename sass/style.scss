@@ -321,3 +321,52 @@ nav {
     }
   }
 }
+.offers-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7rem;
+  .text-box {
+    .header {
+      margin-bottom: 6.4rem;
+      h2 {
+        margin-bottom: 3.2rem;
+      }
+    }
+    .offers {
+      .second-container {
+        border: 0.1rem solid rgba(0, 0, 0, 0.159);
+        border-radius: 3.2rem;
+      }
+      div {
+        display: flex;
+        align-items: center;
+        gap: 3.2rem;
+        padding: 3.2rem;
+        div {
+          display: block;
+        }
+        .first,
+        .second,
+        .third {
+          width: 10rem;
+          height: 10rem;
+          padding: 2.5rem;
+          border-radius: 3.2rem;
+        }
+        .first {
+          background-color: $secondary;
+        }
+        .second {
+          background-color: #facd49;
+        }
+        .third {
+          background-color: $pink;
+        }
+      }
+    }
+  }
+  .img-box {
+    width: 44%;
+  }
+}

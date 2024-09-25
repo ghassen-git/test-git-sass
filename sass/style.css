@@ -348,4 +348,50 @@ nav .login {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+.offers-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7rem;
+}
+.offers-section .text-box .header {
+  margin-bottom: 6.4rem;
+}
+.offers-section .text-box .header h2 {
+  margin-bottom: 3.2rem;
+}
+.offers-section .text-box .offers .second-container {
+  border: 0.1rem solid rgba(0, 0, 0, 0.159);
+  border-radius: 3.2rem;
+}
+.offers-section .text-box .offers div {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+  padding: 3.2rem;
+}
+.offers-section .text-box .offers div div {
+  display: block;
+}
+.offers-section .text-box .offers div .first,
+.offers-section .text-box .offers div .second,
+.offers-section .text-box .offers div .third {
+  width: 10rem;
+  height: 10rem;
+  padding: 2.5rem;
+  border-radius: 3.2rem;
+}
+.offers-section .text-box .offers div .first {
+  background-color: #ff5722;
+}
+.offers-section .text-box .offers div .second {
+  background-color: #facd49;
+}
+.offers-section .text-box .offers div .third {
+  background-color: #f85e9f;
+}
+.offers-section .img-box {
+  width: 44%;
 }/*# sourceMappingURL=style.css.map */
