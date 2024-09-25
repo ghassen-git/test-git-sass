@@ -46,6 +46,7 @@ button,
 a {
   text-transform: capitalize;
   cursor: pointer;
+  font-weight: 900;
 }
 .logo-text {
   font-size: 2.4rem;
@@ -150,8 +151,11 @@ nav {
     }
     button {
       @include btn($gray, $perple, white);
+
+      box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.249);
     }
     .Watch {
+      box-shadow: none;
       @include btn(white, white);
       display: flex;
       border: 0.1rem solid rgba(0, 0, 0, 0.159);
@@ -162,6 +166,7 @@ nav {
     .hero-btns {
       display: flex;
       align-items: center;
+      gap: 3rem;
     }
   }
 }

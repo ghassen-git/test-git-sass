@@ -47,6 +47,7 @@ button,
 a {
   text-transform: capitalize;
   cursor: pointer;
+  font-weight: 900;
 }
 
 .logo-text {
@@ -167,8 +168,10 @@ nav .login {
   color: white;
   padding: 1.6rem 3.2rem;
   border-radius: 10rem;
+  box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.249);
 }
 .hero-section .hero-section-text .Watch {
+  box-shadow: none;
   border: 0.1rem solid white;
   background-color: white;
   color: #191825;
@@ -183,6 +186,7 @@ nav .login {
 .hero-section .hero-section-text .hero-btns {
   display: flex;
   align-items: center;
+  gap: 3rem;
 }
 
 .features {
