@@ -24,7 +24,7 @@ html {
 }
 .pink-text {
   color: $pink;
-
+  margin-bottom: 1.6rem;
   font-size: 2.3rem;
   font-weight: 700;
   line-height: 2.76rem;
@@ -154,6 +154,7 @@ nav {
     .Watch {
       @include btn(white, white);
       display: flex;
+      border: 0.1rem solid rgba(0, 0, 0, 0.159);
       align-items: center;
       justify-content: center;
       gap: 1.6rem;
@@ -175,9 +176,6 @@ nav {
   gap: 2rem;
   .header-scroled-section {
     width: 116rem;
-    .pink-text {
-      margin-bottom: 1.6rem;
-    }
   }
 
   .scroled-container {
