@@ -370,3 +370,73 @@ nav {
     width: 44%;
   }
 }
+.testimonials-section {
+  overflow: visible;
+  position: relative;
+  z-index: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5.6rem;
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  p {
+    font-size: 2.3rem;
+    color: $primary;
+    text-align: center;
+  }
+  .stars {
+    font-weight: 700;
+    font-size: 2.8rem;
+
+    p {
+      color: $primary;
+    }
+    span {
+      color: $secondary;
+    }
+
+    div {
+      margin-top: 3.2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 2.2rem;
+    }
+  }
+  .bg-img {
+    top: 80%;
+    left: 67%;
+    scale: 1.3;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+  button {
+    height: 10rem;
+    width: 10rem;
+    @include btn($gray, $perple, white, 50%);
+    box-shadow: 0rem 0.3rem 1rem rgba(0, 0, 0, 0.47);
+    top: 50%;
+    right: 0;
+    position: absolute;
+  }
+  .left-btn {
+    @include btn(none, white, $primary, 50%);
+    border: none;
+    box-shadow: none;
+    top: 50%;
+    position: absolute;
+    left: 0;
+  }
+  .dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.4rem;
+  }
+}

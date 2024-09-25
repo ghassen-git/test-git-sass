@@ -394,4 +394,83 @@ nav .login {
 }
 .offers-section .img-box {
   width: 44%;
+}
+
+.testimonials-section {
+  overflow: visible;
+  position: relative;
+  z-index: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5.6rem;
+}
+.testimonials-section .header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.testimonials-section p {
+  font-size: 2.3rem;
+  color: #191825;
+  text-align: center;
+}
+.testimonials-section .stars {
+  font-weight: 700;
+  font-size: 2.8rem;
+}
+.testimonials-section .stars p {
+  color: #191825;
+}
+.testimonials-section .stars span {
+  color: #ff5722;
+}
+.testimonials-section .stars div {
+  margin-top: 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.2rem;
+}
+.testimonials-section .bg-img {
+  top: 80%;
+  left: 67%;
+  scale: 1.3;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.testimonials-section button {
+  height: 10rem;
+  width: 10rem;
+  border: 0.1rem solid rgba(25, 24, 37, 0.4784313725);
+  background-color: #5d50c6;
+  color: white;
+  stroke: white;
+  padding: 1.6rem 3.2rem;
+  border-radius: 50%;
+  box-shadow: 0rem 0.3rem 1rem rgba(0, 0, 0, 0.47);
+  top: 50%;
+  right: 0;
+  position: absolute;
+}
+.testimonials-section .left-btn {
+  border: 0.1rem solid none;
+  background-color: white;
+  color: #191825;
+  stroke: #191825;
+  padding: 1.6rem 3.2rem;
+  border-radius: 50%;
+  border: none;
+  box-shadow: none;
+  top: 50%;
+  position: absolute;
+  left: 0;
+}
+.testimonials-section .dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
 }/*# sourceMappingURL=style.css.map */
