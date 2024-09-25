@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Circular Std;
+  src: url(asset/CircularStd-Book.ttf);
+}
 * {
   padding: 0;
   margin: 0;
@@ -6,7 +10,7 @@
 
 body {
   margin: 0 12.8rem;
-  color: rgba(25, 24, 37, 0.5019607843);
+  color: rgba(25, 24, 37, 0.4784313725);
   position: relative;
   font-size: 1.8rem;
   font-family: Circular Std;
@@ -30,11 +34,11 @@ section {
 }
 
 p {
-  font-family: inter;
+  font-family: inter, sans-serif;
 }
 
 a {
-  color: rgba(25, 24, 37, 0.5019607843);
+  color: rgba(25, 24, 37, 0.4784313725);
   text-decoration: none;
 }
 
@@ -65,11 +69,17 @@ h2 {
   text-align: left;
 }
 
+h3 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 3.36rem;
+}
+
 .logo {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 nav {
@@ -94,7 +104,7 @@ nav ul li a:active {
   color: #191825;
 }
 nav button {
-  border: 0.1rem solid rgba(25, 24, 37, 0.5019607843);
+  border: 0.1rem solid rgba(25, 24, 37, 0.4784313725);
   background-color: #5d50c6;
   color: white;
   padding: 1.6rem 3.2rem;
@@ -138,6 +148,7 @@ nav .login {
   align-items: center;
   justify-content: center;
   gap: 1.8rem;
+  font-size: 1.8rem;
 }
 .hero-section .hero-section-text .hero-header {
   color: #191825;
@@ -150,7 +161,7 @@ nav .login {
   color: #f85e9f;
 }
 .hero-section .hero-section-text button {
-  border: 0.1rem solid rgba(25, 24, 37, 0.5019607843);
+  border: 0.1rem solid rgba(25, 24, 37, 0.4784313725);
   background-color: #5d50c6;
   color: white;
   padding: 1.6rem 3.2rem;
@@ -176,4 +187,38 @@ nav .login {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.scroled-section {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.scroled-section .header-scroled-section {
+  width: 116rem;
+}
+.scroled-section .header-scroled-section .pink-text {
+  margin-bottom: 1.6rem;
+}
+.scroled-section .scroled-container {
+  display: flex;
+  gap: 2rem;
+  overflow-x: auto;
+  align-items: center;
+}
+.scroled-section .scroled-container .scroled-container-content {
+  border: 0.1rem solid rgba(0, 0, 0, 0.159);
+  border-radius: 3.2rem;
+  padding: 6.4rem;
+  min-height: 44.3rem;
+  min-width: 35rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3.2rem;
+}
+.scroled-section .scroled-container .scroled-container-content h3 {
+  margin-bottom: 3.2rem;
 }/*# sourceMappingURL=style.css.map */

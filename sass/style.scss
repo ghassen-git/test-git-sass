@@ -2,7 +2,11 @@ $primary: #191825;
 $secondary: #ff5722;
 $pink: #f85e9f;
 $perple: #5d50c6;
-$gray: #19182580;
+$gray: #1918257a;
+@font-face {
+  font-family: Circular Std;
+  src: url(asset/CircularStd-Book.ttf);
+}
 * {
   padding: 0;
   margin: 0;
@@ -32,7 +36,7 @@ section {
 }
 
 p {
-  font-family: inter;
+  font-family: inter, sans-serif;
 }
 a {
   color: $gray;
@@ -61,6 +65,11 @@ h2 {
   line-height: 5.28rem;
   text-align: left;
 }
+h3 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 3.36rem;
+}
 
 @mixin btn($border: white, $bg: white, $col: $primary, $red: 10rem) {
   border: 0.1rem solid $border;
@@ -73,7 +82,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
+  gap: 2rem;
 }
 nav {
   padding: 4.8rem 0;
@@ -127,6 +136,7 @@ nav {
       align-items: center;
       justify-content: center;
       gap: 1.8rem;
+      font-size: 1.8rem;
     }
     .hero-header {
       color: $primary;
@@ -158,4 +168,39 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.scroled-section {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  .header-scroled-section {
+    width: 116rem;
+    .pink-text {
+      margin-bottom: 1.6rem;
+    }
+  }
+
+  .scroled-container {
+    display: flex;
+    gap: 2rem;
+    overflow-x: auto;
+    align-items: center;
+
+    .scroled-container-content {
+      border: 0.1rem solid rgba(0, 0, 0, 0.159);
+      border-radius: 3.2rem;
+      padding: 6.4rem;
+      min-height: 44.3rem;
+      min-width: 35rem;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 3.2rem;
+      h3 {
+        margin-bottom: 3.2rem;
+      }
+    }
+  }
 }
