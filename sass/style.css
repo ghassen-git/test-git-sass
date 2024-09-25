@@ -300,4 +300,52 @@ nav .login {
   align-items: center;
   color: #ff5722;
   gap: 0.9rem;
+}
+
+.discount-section {
+  display: flex;
+  gap: 2rem;
+}
+.discount-section .img-box {
+  transform: translate(-20%);
+  width: 60%;
+}
+.discount-section .text-box {
+  position: relative;
+}
+.discount-section .text-box .text-img {
+  top: 17.1rem;
+  left: 31.3rem;
+  position: absolute;
+}
+.discount-section .text-box h2 {
+  margin-bottom: 3.2rem;
+}
+.discount-section .text-box .header {
+  margin-bottom: 6.4rem;
+}
+.discount-section .text-box .stats {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.2rem;
+}
+.discount-section .text-box .stats span {
+  color: #ff5722;
+  font-weight: 700;
+  font-size: 3.5rem;
+  margin-bottom: 1.6rem;
+}
+.discount-section .text-box .stats p {
+  color: #191825;
+  font-weight: 400;
+}
+.discount-section .text-box .stats div {
+  padding: 3.2rem;
+  border: 0.1rem solid rgba(25, 24, 37, 0.4784313725);
+  border-radius: 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }/*# sourceMappingURL=style.css.map */
