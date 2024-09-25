@@ -32,7 +32,8 @@ html {
   text-align: left;
   text-transform: uppercase;
 }
-section {
+section,
+footer {
   padding: 6.4rem 0;
 }
 
@@ -84,7 +85,7 @@ h3 {
 .logo {
   display: flex;
   align-items: center;
-  justify-content: center;
+
   gap: 2rem;
 }
 nav {
@@ -492,5 +493,39 @@ nav {
     position: absolute;
     top: -6rem;
     left: -3rem;
+  }
+}
+footer {
+  display: flex;
+  flex-flow: wrap;
+  gap: 3.2rem;
+  div {
+    width: 18%;
+  }
+  .logo {
+    margin-bottom: 3.2rem;
+  }
+  .logo-container {
+    width: 35%;
+    margin-right: 3.2rem;
+  }
+  .social-links {
+    margin-top: 6.4rem;
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+  }
+  ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+    a {
+      color: #191825d2;
+    }
+  }
+
+  li:first-child {
+    color: $primary;
   }
 }
