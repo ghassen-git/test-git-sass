@@ -24,10 +24,11 @@ html {
   color: #f85e9f;
   margin-bottom: 1.6rem;
   font-size: 2.3rem;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 2.76rem;
-  letter-spacing: 0.2rem;
+  letter-spacing: 1rem;
   text-align: left;
+  text-transform: uppercase;
 }
 
 section {
@@ -66,14 +67,14 @@ h3 {
 
 h2 {
   font-size: 4.4rem;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 5.28rem;
   text-align: left;
 }
 
 h3 {
   font-size: 2.8rem;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 3.36rem;
 }
 
@@ -109,6 +110,7 @@ nav button {
   border: 0.1rem solid rgba(25, 24, 37, 0.4784313725);
   background-color: #5d50c6;
   color: white;
+  stroke: white;
   padding: 1.6rem 3.2rem;
   border-radius: 10rem;
 }
@@ -116,6 +118,7 @@ nav .login {
   border: 0.1rem solid white;
   background-color: white;
   color: #191825;
+  stroke: #191825;
   padding: 1.6rem 3.2rem;
   border-radius: 10rem;
 }
@@ -144,6 +147,7 @@ nav .login {
   border: 0.1rem solid white;
   background-color: white;
   color: #f85e9f;
+  stroke: #f85e9f;
   padding: 1.6rem 3.2rem;
   border-radius: 10rem;
   display: flex;
@@ -166,15 +170,17 @@ nav .login {
   border: 0.1rem solid rgba(25, 24, 37, 0.4784313725);
   background-color: #5d50c6;
   color: white;
+  stroke: white;
   padding: 1.6rem 3.2rem;
   border-radius: 10rem;
-  box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.249);
+  box-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.049);
 }
 .hero-section .hero-section-text .Watch {
   box-shadow: none;
   border: 0.1rem solid white;
   background-color: white;
   color: #191825;
+  stroke: #191825;
   padding: 1.6rem 3.2rem;
   border-radius: 10rem;
   display: flex;
@@ -224,4 +230,68 @@ nav .login {
 }
 .scroled-section .scroled-container .scroled-container-content h3 {
   margin-bottom: 3.2rem;
+}
+
+.pricing-section .header-pricing-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 6.4rem;
+}
+.pricing-section .header-pricing-section .pricing-section-btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+}
+.pricing-section .header-pricing-section .pricing-section-btns button {
+  height: 10rem;
+  width: 10rem;
+  border: 0.1rem solid rgba(25, 24, 37, 0.4784313725);
+  background-color: #5d50c6;
+  color: white;
+  stroke: white;
+  padding: 1.6rem 3.2rem;
+  border-radius: 50%;
+}
+.pricing-section .header-pricing-section .pricing-section-btns .left-btn {
+  border: 0.1rem solid rgba(25, 24, 37, 0.4784313725);
+  background-color: white;
+  color: #191825;
+  stroke: #191825;
+  padding: 1.6rem 3.2rem;
+  border-radius: 50%;
+}
+.pricing-section .pricing-containers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.2rem;
+}
+.pricing-section .pricing-containers .container {
+  height: 57.5rem;
+  width: 37.3rem;
+  box-shadow: 0rem 3.2rem 7rem rgba(0, 0, 0, 0.1098039216);
+  border-radius: 3.2rem;
+}
+.pricing-section .pricing-containers .container .pink-text,
+.pricing-section .pricing-containers .container h3 {
+  letter-spacing: normal;
+  font-size: 2.3rem;
+  line-height: 2.76rem;
+  text-align: left;
+  margin-bottom: 1.6rem;
+}
+.pricing-section .pricing-containers .container .text-box {
+  padding: 3.2rem;
+}
+.pricing-section .pricing-containers .container .text-box div {
+  display: flex;
+  gap: 2.5rem;
+}
+.pricing-section .pricing-containers .container .text-box .rating {
+  margin-top: 4.4rem;
+  align-items: center;
+  color: #ff5722;
+  gap: 0.9rem;
 }/*# sourceMappingURL=style.css.map */
