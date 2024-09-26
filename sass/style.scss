@@ -17,7 +17,19 @@ body {
   color: $gray;
   position: relative;
   font-size: 1.8rem;
+  font-weight: 400;
   font-family: Circular Std;
+  line-height: 2.88rem;
+  .first-object {
+    top: 89.195rem;
+    left: -8.7rem;
+    position: absolute;
+  }
+  .second-object {
+    top: 568.8rem;
+    left: 136.8rem;
+    position: absolute;
+  }
 }
 html {
   font-size: 62.5%;
@@ -103,6 +115,10 @@ nav {
 
     li {
       font-size: 1.4rem;
+      a:link,
+      a:active {
+        font-weight: 700;
+      }
       a:hover,
       a:active {
         color: $primary;
@@ -500,14 +516,13 @@ footer {
   flex-flow: wrap;
   gap: 3.2rem;
   div {
-    width: 18%;
+    width: 17%;
   }
   .logo {
     margin-bottom: 3.2rem;
   }
   .logo-container {
-    width: 35%;
-    margin-right: 3.2rem;
+    width: 38%;
   }
   .social-links {
     margin-top: 6.4rem;
@@ -522,10 +537,12 @@ footer {
     gap: 3.2rem;
     a {
       color: #191825d2;
+      font-weight: 400;
     }
   }
 
   li:first-child {
+    font-weight: 700;
     color: $primary;
   }
 }
