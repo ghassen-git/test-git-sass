@@ -1,0 +1,4 @@
+node_modules
+.DS_Store
+sass/style.css
+sass/style.css.map
