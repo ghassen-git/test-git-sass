@@ -18,10 +18,9 @@ body {
   position: relative;
   font-size: 1.8rem;
   font-family: Circular Std;
-  background-image: url("asset/OBJECTS (1).png"), url("asset/OBJECTS.png"),
-    url("asset/Layer_1.png");
+  background-image: url("asset/OBJECTS (1).png"), url("asset/OBJECTS.png");
   background-repeat: no-repeat;
-  background-position: 100% 96%, 3% 18.6%, 32% 84%;
+  background-position: 100% 96%, 3% 14.6%;
 }
 html {
   font-size: 62.5%;
@@ -173,7 +172,9 @@ nav {
     .hero-btns {
       display: flex;
       align-items: center;
+      justify-content: center;
       gap: 3rem;
+      flex-flow: wrap;
     }
   }
 }
@@ -379,9 +380,10 @@ nav {
   }
 }
 .testimonials-section {
-  overflow: visible;
+  background-image: url("asset/Layer_1.png");
+  background-position: 50% 50%;
   position: relative;
-  z-index: inherit;
+
   display: flex;
   align-items: center;
   justify-content: center;
