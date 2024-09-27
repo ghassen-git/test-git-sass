@@ -178,7 +178,7 @@ nav .login {
   stroke: white;
   padding: 1.6rem 3.2rem;
   border-radius: 10rem;
-  box-shadow: 0rem 0.3rem 1rem rgba(0, 0, 0, 0.47);
+  box-shadow: 0rem 0.3rem 0.5rem rgba(0, 0, 0, 0.47);
 }
 .hero-section .hero-section-text .Watch {
   box-shadow: none;
@@ -221,6 +221,7 @@ nav .login {
   gap: 2rem;
   overflow-x: auto;
   align-items: center;
+  padding: 5.1rem;
 }
 .scroled-section .scroled-container .scroled-container-content {
   border: 0.1rem solid rgba(0, 0, 0, 0.159);
@@ -240,7 +241,9 @@ nav .login {
   margin-bottom: 3.2rem;
 }
 .scroled-section .scroled-container .scroled-container-content:hover {
-  transform: translate(0, 1rem);
+  transform: translate(0, -5rem);
+  box-shadow: 0rem 0.3rem 1rem rgba(0, 0, 0, 0.47);
+  z-index: inherit;
 }
 
 .pricing-section .header-pricing-section {
@@ -408,6 +411,7 @@ nav .login {
   background-image: url("asset/Layer_1.png");
   background-position: 50% 50%;
   position: relative;
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -526,6 +530,7 @@ nav .login {
   border: none;
   width: 100%;
   font-size: 1.8rem;
+  padding-left: 8rem;
 }
 .mailing-section .inputs input::placeholder {
   color: #191825;
@@ -586,12 +591,10 @@ footer li:first-child {
   body {
     margin: 0 6.4rem;
   }
-  nav .logo {
-    margin-left: 5rem;
-  }
   nav .menu {
     display: block;
   }
+  nav .links,
   nav ul {
     display: none;
   }
