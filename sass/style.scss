@@ -137,6 +137,7 @@ nav {
     justify-content: center;
     gap: 4.3rem;
     flex-direction: column;
+    text-align: left;
     .pink-btn {
       @include btn(white, white, $pink);
       display: flex;
@@ -150,7 +151,7 @@ nav {
       font-size: 6.9rem;
       font-weight: 700;
       line-height: 8.28rem;
-      text-align: left;
+
       span {
         color: $pink;
       }
@@ -216,7 +217,7 @@ nav {
       }
     }
     .scroled-container-content:hover {
-      transform: translate-Y(1rem);
+      transform: translate(0, 1rem);
     }
   }
 }
@@ -249,6 +250,9 @@ nav {
     align-items: center;
     justify-content: center;
     gap: 3.2rem;
+    .first-img {
+      width: 100%;
+    }
     .container {
       height: 57.5rem;
       width: 37.3rem;
@@ -533,3 +537,4 @@ footer {
     color: $primary;
   }
 }
+@import "queries";
