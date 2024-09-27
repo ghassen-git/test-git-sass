@@ -76,7 +76,6 @@
     flex-direction: column;
     .text-box {
       text-align: center;
-      margin-top: 6.4rem;
     }
   }
   .offers-section {
@@ -112,8 +111,9 @@
   }
 }
 @media (max-width: 54em) {
+  footer,
   section {
-    margin: 4.6rem 0;
+    padding: 3.2rem 0;
   }
   html {
     font-size: 47%;
@@ -164,7 +164,6 @@
     display: none;
   }
   .hero-section {
-    padding: 0;
     .hero-section-text {
       width: 100%;
       .hero-btns {
@@ -177,12 +176,8 @@
       }
     }
   }
-  .features {
-    padding: 0;
-    margin: 6.4rem 0;
-  }
+
   .scroled-section {
-    padding: 0;
     .header-scroled-section {
       margin-bottom: 1rem;
     }
@@ -197,7 +192,6 @@
     }
   }
   .pricing-section {
-    padding: 2rem 0;
     .pricing-containers {
       .container {
         .first-img {
@@ -211,7 +205,50 @@
       }
     }
   }
-  .discount-section img {
-    width: 178%;
+  .discount-section {
+    img {
+      width: 178%;
+    }
+    .text-box {
+      .stats {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
+  .testimonials-section {
+    .testimonials-btns {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    background: none;
+    button,
+    .left-btn {
+      position: initial;
+    }
+  }
+  .mailing-section {
+    padding: 6.4rem 3.2rem;
+    margin: 0;
+    .inputs {
+      width: 100%;
+      flex-direction: column;
+      button {
+        width: 100%;
+      }
+    }
+    .element {
+      display: none;
+    }
+  }
+  footer {
+    .logo-container {
+      margin: 0;
+      .logo {
+        margin-top: 0;
+      }
+    }
   }
 }

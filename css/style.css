@@ -416,7 +416,7 @@ nav .login {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 5.6rem;
+  gap: 6.4rem;
 }
 .testimonials-section .header {
   display: flex;
@@ -644,7 +644,6 @@ footer li:first-child {
   }
   .discount-section .text-box {
     text-align: center;
-    margin-top: 6.4rem;
   }
   .offers-section {
     flex-direction: column-reverse;
@@ -674,8 +673,9 @@ footer li:first-child {
   }
 }
 @media (max-width: 54em) {
+  footer,
   section {
-    margin: 4.6rem 0;
+    padding: 3.2rem 0;
   }
   html {
     font-size: 47%;
@@ -719,9 +719,6 @@ footer li:first-child {
   .nav-btns {
     display: none;
   }
-  .hero-section {
-    padding: 0;
-  }
   .hero-section .hero-section-text {
     width: 100%;
   }
@@ -731,13 +728,6 @@ footer li:first-child {
   .hero-section .hero-section-text .hero-btns button {
     padding: 3.2rem 3.2rem;
     width: 100%;
-  }
-  .features {
-    padding: 0;
-    margin: 6.4rem 0;
-  }
-  .scroled-section {
-    padding: 0;
   }
   .scroled-section .header-scroled-section {
     margin-bottom: 1rem;
@@ -751,9 +741,6 @@ footer li:first-child {
     width: 100%;
     padding: 3.2rem;
   }
-  .pricing-section {
-    padding: 2rem 0;
-  }
   .pricing-section .pricing-containers .container {
     width: 100%;
   }
@@ -766,5 +753,41 @@ footer li:first-child {
   }
   .discount-section img {
     width: 178%;
+  }
+  .discount-section .text-box .stats {
+    grid-template-columns: 1fr;
+  }
+  .testimonials-section {
+    background: none;
+  }
+  .testimonials-section .testimonials-btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .testimonials-section button,
+  .testimonials-section .left-btn {
+    position: initial;
+  }
+  .mailing-section {
+    padding: 6.4rem 3.2rem;
+    margin: 0;
+  }
+  .mailing-section .inputs {
+    width: 100%;
+    flex-direction: column;
+  }
+  .mailing-section .inputs button {
+    width: 100%;
+  }
+  .mailing-section .element {
+    display: none;
+  }
+  footer .logo-container {
+    margin: 0;
+  }
+  footer .logo-container .logo {
+    margin-top: 0;
   }
 }
