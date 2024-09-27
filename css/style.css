@@ -93,6 +93,9 @@ nav {
   align-items: center;
   justify-content: space-between;
 }
+nav .menu {
+  display: none;
+}
 nav ul {
   display: flex;
   gap: 6.4rem;
@@ -581,8 +584,16 @@ footer li:first-child {
     text-align: center;
   }
   body {
-    background: none;
     margin: 0 6.4rem;
+  }
+  nav .logo {
+    margin-left: 5rem;
+  }
+  nav .menu {
+    display: block;
+  }
+  nav ul {
+    display: none;
   }
   .features {
     flex-flow: wrap;
@@ -606,7 +617,7 @@ footer li:first-child {
     margin-top: 6.4rem;
   }
   .scroled-section .header-scroled-section {
-    max-width: 116rem;
+    max-width: 100%;
   }
   .scroled-section .scroled-container {
     width: 100%;
@@ -649,5 +660,13 @@ footer li:first-child {
   }
   .offers-section .text-box .offers div {
     width: 100%;
+  }
+  footer .logo-container {
+    width: 100%;
+    font-size: 2.3rem;
+  }
+  footer div {
+    width: 28%;
+    margin-top: 6.4rem;
   }
 }

@@ -12,8 +12,18 @@
     }
   }
   body {
-    background: none;
     margin: 0 6.4rem;
+  }
+  nav {
+    .logo {
+      margin-left: 5rem;
+    }
+    .menu {
+      display: block;
+    }
+    ul {
+      display: none;
+    }
   }
   .features {
     flex-flow: wrap;
@@ -38,7 +48,7 @@
   }
   .scroled-section {
     .header-scroled-section {
-      max-width: 116rem;
+      max-width: 100%;
     }
     .scroled-container {
       width: 100%;
@@ -90,6 +100,16 @@
           width: 100%;
         }
       }
+    }
+  }
+  footer {
+    .logo-container {
+      width: 100%;
+      font-size: 2.3rem;
+    }
+    div {
+      width: 28%;
+      margin-top: 6.4rem;
     }
   }
 }
